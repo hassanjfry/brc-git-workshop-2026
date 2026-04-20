@@ -517,27 +517,7 @@ A commit gives you a saved version of your staged changes, together with its mes
 
 ---
 
-## An example project
-
-We'll work with synthetic data from an NHS inpatient mental health service.
-
-The example project includes a `README.md`, a `.gitignore`, one dataset in `data/`, and three scripts in `scripts/` that:
-
-::: {.box color="red"}
-1. Import and clean the data (`scripts/clean.R`)
-2. Build a model to predict 30-day readmission (`scripts/model.R`)
-3. Plot the calibration slope (`scripts/plots.R`)
-:::
-
-See the `example` folder on [GitHub][example] to download the files.
-
-[Note: You do not need to understand the R code, or even run it.]{.muted}
-
-[example]: https://github.com/ewancarr/brc-git-workshop-2026/tree/main/example
-
----
-
-To begin, we'll assume we have downloaded the `example/` project folder, which includes:
+We'll work with a downloaded `example/` project folder, which includes:
 
 :::: {.columns}
 
